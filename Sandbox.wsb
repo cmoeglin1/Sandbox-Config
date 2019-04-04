@@ -1,0 +1,13 @@
+<Configuration>
+	<VGpu>Enable</VGpu>
+	<Networking>Enable</Networking>
+	<MappedFolders>
+		<MappedFolder>
+			<HostFolder>C:\Sandbox</HostFolder>
+			<ReadOnly>true</ReadOnly>
+		</MappedFolder>
+	</MappedFolders>
+	<LogonCommand>
+		<Command>powershell.exe -executionpolicy unrestricted -noexit C:\users\wdagutilityaccount\desktop\Sandbox\sandbox-setup.ps1</Command>
+	</LogonCommand>
+</Configuration>

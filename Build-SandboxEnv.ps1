@@ -8,7 +8,8 @@ $wsbURI = "https://raw.githubusercontent.com/cmoeglin1/Sandbox-Config/master/San
 $wsbTarget = "$sandboxLocation\Sandbox.wsb"
 $npptarget = "$sandboxLocation\npp.exe"
 $sysTarget = "$sandboxLocation\Sysinternals"
-$nppuri = "https://notepad-plus-plus.org/repository/7.x/7.6.6/npp.7.6.6.Installer.x64.exe"
+$nppuri = "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.1/npp.8.1.1.Installer.exe"
+#$nppuri = "https://notepad-plus-plus.org/repository/7.x/7.6.6/npp.7.6.6.Installer.x64.exe"
 
 $wc = New-Object -TypeName System.Net.WebClient
 if (test-path $sandboxLocation)

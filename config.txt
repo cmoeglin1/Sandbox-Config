@@ -1,0 +1,14 @@
+#from http://tlingenf.spaces.live.com/blog/cns!B1B09F516B5BAEBF!213.entry
+#
+[General]
+DesktopShortcut=True
+#DownloadNPP=True
+#DownloadSysinternals=True
+
+[Locations]
+SandboxLocation=C:\Sandbox
+
+
+[Downloads]
+SysmonConfig=https://raw.githubusercontent.com/SwiftOnSecurity/sysmon-config/master/sysmonconfig-export.xml
+NPP=https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.1.1/npp.8.1.1.Installer.exe
